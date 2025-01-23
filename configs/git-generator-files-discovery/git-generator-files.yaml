@@ -5,7 +5,7 @@ metadata:
 spec:  
   generators:  
     - git:  
-        repoURL: https://github.com/GITHUB_USERNAME/harness-gitops-workshop.git  
+        repoURL: https://github.com/nihalgit12/harness-gitops-workshop.git  
         revision: HEAD  
         files:  
         - path: "configs/git-generator-files-discovery/cluster-config/**/config.json"  
@@ -13,7 +13,7 @@ spec:
     metadata:  
       name: '{{cluster.namespace}}-podinfo'  
     spec:  
-      project: ARGO_PROJECT_ID  
+      project: 0850c3fd  
       source:  
         repoURL: https://github.com/GITHUB_USERNAME/harness-gitops-workshop.git  
         targetRevision: HEAD  
